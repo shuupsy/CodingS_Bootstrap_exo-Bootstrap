@@ -10153,4 +10153,10 @@ footer {
   background-color: #32A2B8;
 }
 
+@media screen and (min-width: 320px) {
+  header {
+    height: auto;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
