@@ -10138,7 +10138,6 @@ readers do not read off random characters that represent icons */
 
 header {
   background-color: #32A2B8;
-  height: 10vh;
 }
 
 main .banniere img {
@@ -10156,6 +10155,15 @@ footer {
 @media screen and (min-width: 320px) {
   header {
     height: auto;
+  }
+}
+@media screen and (min-width: 1024px) {
+  header {
+    height: 10vh;
+  }
+
+  main {
+    width: 75%;
   }
 }
 
