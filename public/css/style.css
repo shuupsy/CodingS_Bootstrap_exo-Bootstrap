@@ -10146,6 +10146,7 @@ readers do not read off random characters that represent icons */
 
 header {
   background-color: #32A2B8;
+  height: 10vh;
 }
 
 main .banniere img {
