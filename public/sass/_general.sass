@@ -3,6 +3,48 @@
 
 header
     background-color: $bg-color
+    height: 10vh
+    display: flex
+    justify-content: space-between
+    align-items: center
+    .logo
+        img
+            width: 100px
+            height: 50px
+    ul
+        display: flex
+        justify-content: space-around
+        li
+            a
+                text-decoration: none
+
+main
+    width: 70%
+    margin: 0 auto
+    // .banniere
+    //     background-image: url('../images/twitter_bootstrap-wallpaper-1920x1200.jpg')
+    //     height: auto
+    //     width: 100%
+    //     background-size: 100%
+    section
+        display: grid
+        grid-template-columns: repeat(2,1fr)
+        gap: 20px
+        .cards
+            display: flex
+            .cards-img
+                img
+                    width: 200px
 
 footer
     background-color: $bg-color
+    padding: 5vh
+    display: grid
+    grid-template-columns: repeat(3,1fr)
+    align-items: center
+    justify-content: center
+    text-align: center
+    color: white
+    #formulaire
+        display: flex
+        align-items: center

@@ -19,17 +19,15 @@
 
 <body>
     <!-- Début header -->
-    <header>
-        <nav>
-            <div>
-                <img src="public/images/coding-week.jpg" alt="logo coding week">
-            </div>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Features</a></li>
-                <li><a href="#">Link</a></li>
-            </ul>
-        </nav>
+    <header class="px-3">
+        <div class="logo">
+            <img src="public/images/coding-week.jpg" alt="logo coding week">
+        </div>
+        <ul>
+            <li class="ps-2"><a href="#" class="text-light">Home</a></li>
+            <li class="ps-2"><a href="#" class="text-secondary">Features</a></li>
+            <li class="ps-2"><a href="#" class="text-secondary">Link</a></li>
+        </ul>
     </header>
 
     <!-- Début main -->
@@ -37,44 +35,44 @@
         <div class="banniere"></div>
         <section>
             <!-- Card 1 -->
-            <div>
+            <div class="cards">
                 <div class="cards-img">
                     <img src="public/images/team-1.png" alt="monsieur moustache">
                 </div>
-                <div class="cards-txt">
+                <div class="cards-txt px-2">
                     <h1>Nom Prenom</h1>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit, ipsa.</p>
                 </div>
             </div>
 
             <!-- Card 2 -->
-            <div>
+            <div class="cards">
                 <div class="cards-img">
                     <img src="public/images/team-2.png" alt="monsieur costume">
                 </div>
-                <div class="cards-txt">
+                <div class="cards-txt px-2">
                     <h1>Nom Prenom</h1>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit, ipsa.</p>
                 </div>
             </div>
 
             <!-- Card 3 -->
-            <div>
+            <div class="cards">
                 <div class="cards-img">
                     <img src="public/images/team-3.png" alt="monsieur cuisinier">
                 </div>
-                <div class="cards-txt">
+                <div class="cards-txt px-2">
                     <h1>Nom Prenom</h1>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit, ipsa.</p>
                 </div>
             </div>
 
             <!-- Card 4 -->
-            <div>
+            <div class="cards">
                 <div class="cards-img">
                     <img src="public/images/team-4.png" alt="monsieur lunettes">
                 </div>
-                <div class="cards-txt">
+                <div class="cards-txt px-2">
                     <h1>Nom Prenom</h1>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit, ipsa.</p>
                 </div>
@@ -83,22 +81,22 @@
     </main>
 
     <!-- Début footer -->
-    <footer>
-        <div>
-            <h2>Informations sur la Coding School</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, temporibus ipsa ?</p>
-        </div>
-
-        <!-- Réseaux -->
-        <div>
-            <i class="fa-brands fa-facebook-square"></i>
-            <i class="fa-regular fa-envelope-open"></i>
-        </div>
-
-        <div>
-            <p>Newsletter</p>
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button>Subscribe</button>
+    <footer class="py-5 mt-5">
+            <div>
+                <h2 class="fw-normal">Informations sur la Coding School</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, temporibus ipsa ?</p>
+            </div>
+    
+            <!-- Réseaux -->
+            <div>
+                <i class="fa-brands fa-facebook-square fa-4x me-2"></i>
+                <i class="fa-regular fa-envelope-open fa-4x"></i>
+            </div>
+    
+            <div id="formulaire">
+                <p class="m-0 me-1">Newsletter</p>
+                <input class="form-control" type="search"  aria-label="Search">
+                <button type="button" class="btn btn-dark">Subscribe</button>
         </div>
 
     </footer>
